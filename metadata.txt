@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=CSGDL
+qgisMinimumVersion=3.0
+description=This Plugin will download the features of the currently selected ArcGIS Map Server Layer. the features to be downloaded are those that are within the current active extent of the map canvass. The features will be downloaded as a json file and stored int he current projects directory in a "/jsonDL" folder.
+version=0.1
+author=Guy Thomas
+email=guyrm.thomas13@gmail.com
+
+about=This Plugin will download the features of the currently selected ArcGIS Map Server Layer. the features to be downloaded are those that are within the current active extent of the map canvass. The features will be downloaded as a json file and stored in the current projects directory in a "/jsonDL" folder. This plugin works on Windows 10 with Qgis 3, and is designed to work with the ArcGIS MapServer for the Chief Surveyor General of South Africa. The Mapserver can be found at: https://csg.esri-southafrica.com/server/rest/services/CSGSearch/MapServer
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
